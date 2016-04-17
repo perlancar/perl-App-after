@@ -17,7 +17,7 @@ our $DEBUG = $ENV{DEBUG};
 
 $SPEC{after} = {
     v => 1.1,
-    summary => 'Run command after delay and/or some other event',
+    summary => 'Run command after delay and/or other conditions',
     description => <<'_',
 
 `after` will run command after all the specified conditions are met. A condition
