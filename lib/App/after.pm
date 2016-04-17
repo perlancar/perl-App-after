@@ -74,7 +74,8 @@ _
         },
         none => {
             summary =>
-                'Run command when none of the conditions are met',
+                'Run command when none (instead of all) of the conditions '.
+                'are met',
             schema => 'bool',
             tags => ['category:logic'],
         },
