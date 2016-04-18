@@ -92,6 +92,21 @@ _
     links => [
         {
             url => 'http://onegeek.org/~tom/software/delay/',
+            description => <<'_',
+
+This CLI can also be used to run a command after specified delay or point of
+time.
+
+_
+        },
+        {
+            url => 'pm:Proc::Govern',
+            description => <<'_',
+
+This module can be used to run a command then pause it when system load is
+outside specified range. The distribution also comes with a CLI script.
+
+_
         },
     ],
     examples => [
