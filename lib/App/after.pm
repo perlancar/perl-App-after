@@ -66,6 +66,12 @@ _
         # XXX: condition: screensaver is running
         # XXX: condition: screensaver is not running
 
+        all => {
+            summary =>
+                'Run command after all conditions are met (the default)',
+            schema => 'bool',
+            tags => ['category:logic'],
+        },
         or => {
             summary =>
                 'Run command after one condition (instead of all) is met',
@@ -81,7 +87,7 @@ _
         },
     },
     args_rels => {
-        choose_one => ['or', 'none'],
+        choose_one => ['all', 'or', 'none'],
     },
     links => [
         {
