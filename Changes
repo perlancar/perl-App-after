@@ -1,5 +1,16 @@
 Revision history for App-after
 
+0.02    2016-04-18 (PERLANCAR)
+
+        - Add option --all, just for completeness.
+
+        - [doc] Mention Proc::Govern.
+
+        - [build][doc] Rebuild with updated Pod::Weaver::Plugin::Rinci &
+          Perinci::To::Doc to render links from function metadata as See Also
+          POD section.
+
+
 0.01    2016-04-17 (PERLANCAR)
 
         - First release.
