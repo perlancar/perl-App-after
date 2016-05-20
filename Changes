@@ -1,5 +1,14 @@
 Revision history for App-after
 
+0.03    2016-05-20 (PERLANCAR)
+
+        - No functional changes.
+
+        - [build] Rebuild CLI using Perinci::CmdLine::Inline for faster startup
+          (now that Perinci::CmdLine::Inline can validate/coerce date
+          arguments).
+
+
 0.02    2016-04-18 (PERLANCAR)
 
         - Add option --all, just for completeness.
