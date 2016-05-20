@@ -37,18 +37,15 @@ _
 
         delay => {
             schema => 'duration*',
-            'x.perl.coerce_to' => 'int(secs)',
             tags => ['category:condition'],
             cmdline_aliases => {d=>{}},
         },
         time => {
             schema => 'date*',
-            'x.perl.coerce_to' => 'int(epoch)',
             tags => ['category:condition'],
         },
         uptime => {
             schema => 'duration*',
-            'x.perl.coerce_to' => 'int(secs)',
             tags => ['category:condition'],
         },
         load_below => {
