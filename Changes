@@ -1,5 +1,13 @@
 Revision history for App-after
 
+0.04    2016-05-21 (PERLANCAR)
+
+        - No functional changes.
+
+        - [build] Rebuild with updated Perinci::CmdLine::Inline to add prereq to
+          missing module Time::Duration::Parse::AsHash.
+
+
 0.03    2016-05-20 (PERLANCAR)
 
         - No functional changes.
