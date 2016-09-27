@@ -20,11 +20,11 @@ $SPEC{after} = {
     summary => 'Run command after delay and/or other conditions',
     description => <<'_',
 
-`after` will run command after all the specified conditions are met. A condition
-can be: delay (`--delay`), current time (`--time`), system uptime (`--uptime`),
-system load falling below a certain value (`--load-below`), system load rising
-above a certain value (`--load-above`). More conditions will be available in the
-future.
+<prog:after> will run command after all the specified conditions are met. A
+condition can be: delay (`--delay`), current time (`--time`), system uptime
+(`--uptime`), system load falling below a certain value (`--load-below`), system
+load rising above a certain value (`--load-above`). More conditions will be
+available in the future.
 
 _
     args => {
