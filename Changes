@@ -1,4 +1,4 @@
-0.04    2016-05-21 (PERLANCAR)
+0.04    2016-05-21  Released-By: PERLANCAR
 
         - No functional changes.
 
@@ -6,7 +6,7 @@
           missing module Time::Duration::Parse::AsHash.
 
 
-0.03    2016-05-20 (PERLANCAR)
+0.03    2016-05-20  Released-By: PERLANCAR
 
         - No functional changes.
 
@@ -15,7 +15,7 @@
           arguments).
 
 
-0.02    2016-04-18 (PERLANCAR)
+0.02    2016-04-18  Released-By: PERLANCAR
 
         - Add option --all, just for completeness.
 
@@ -26,6 +26,6 @@
           POD section.
 
 
-0.01    2016-04-17 (PERLANCAR)
+0.01    2016-04-17  Released-By: PERLANCAR
 
         - First release.
