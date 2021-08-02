@@ -2,3 +2,4 @@ App-after-*
 .build
 *~
 nytprof*
+.DS_Store
